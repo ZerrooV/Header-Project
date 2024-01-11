@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+
+body {
+    background-color: white;
+    padding : 0;
+    margin : 0;
+    font-family: Poppins;
+}
+header {
+    background-color: rgb(131,58,180);
+    background: linear-gradient(
+        90deg,
+        rgba(131,58,180,1)0%,
+        rgba(253,29,29,1)50%,
+        rgba(252,176,69,1)100%);
+        padding : 20px;
+}
+
+.headerContainer{
+    display: flex;
+}
+.imgProfil{
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 100%;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.imgProfil:hover{
+    transform: scale(1.1);
+}
+.holderImgProfile{
+    flex: 1;
+    text-align: center;
+}
+.holderDetail{
+    flex: 3;
+}
+.nameProfil{
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+.titleProfil{
+    color:white;
+}
+.button{
+    border: none;
+    padding: 5px 10px;
+    margin: 10px 10px 0 0;
+    font-family: Poppins;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 300;
+    transition:all;
+    transition-duration: 0.5s;
+}
+.button.download{
+    background-color:#e6e9ed;
+    color: rgb(43,43,43);
+    cursor: pointer;
+}
+.button.hire{
+    background-color: #3ca185;
+    color:white;
+    cursor: pointer;
+}
+.button:hover {
+    transform: scale(1.1);
+}
